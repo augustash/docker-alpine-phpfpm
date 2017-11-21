@@ -1,4 +1,4 @@
-FROM augustash/alpine-base-s6:1.0.0
+FROM augustash/alpine-base-s6:1.0.1
 
 # environment
 ENV COMPOSER_HOME "/.composer"
@@ -51,7 +51,6 @@ COPY rootfs /
 # external
 EXPOSE 9000
 WORKDIR /src
-VOLUME ["${COMPOSER_HOME}"]
 
 # run s6 supervisor
 ENTRYPOINT ["/init"]
