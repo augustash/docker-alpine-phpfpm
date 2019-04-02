@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bash
+
+[ "$DEBUG" = "true" ] && set -x
+
+exec \
+    s6-setuidgid ash \
+    /usr/local/bin/composer.phar --working-dir=/src "$@"
