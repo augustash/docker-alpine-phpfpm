@@ -4,9 +4,31 @@ This file contains all software versions used within a version of the image itse
 
 ## Latest
 
-Same as v3.0.1.
+Same as v4.0.0.
 
 Usage: `augustash/alpine-phpfpm` or `augustash/alpine-phpfpm:latest`.
+
+Same as v4.0.0.
+
+Usage: `augustash/alpine-phpfpm` or `augustash/alpine-phpfpm:latest`.
+
+## v4.0.0
+
+- [augustash/alpine-base-s6](https://github.com/augustash/docker-alpine-base-s6/tree/4.0.0): v4.0.0
+- [alpinelinux](https://github.com/alpinelinux/docker-alpine/tree/v3.9): v3.9
+- [php](http://www.php.net/): v7.3.2
+
+*Improvements:*
+
+- Updates to Alpine Linux v3.9.
+- Updates to Base S6 v4.0.0.
+- Updates to PHP v7.3.2.
+
+*Changes:*
+
+- Removes `mcrypt` extension.
+
+Usage: `augustash/alpine-phpfpm:4.0.0`.
 
 ## v3.0.1
 
