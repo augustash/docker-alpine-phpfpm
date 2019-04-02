@@ -8,10 +8,6 @@ Same as v4.0.0.
 
 Usage: `augustash/alpine-phpfpm` or `augustash/alpine-phpfpm:latest`.
 
-Same as v4.0.0.
-
-Usage: `augustash/alpine-phpfpm` or `augustash/alpine-phpfpm:latest`.
-
 ## v4.0.0
 
 - [augustash/alpine-base-s6](https://github.com/augustash/docker-alpine-base-s6/tree/4.0.0): v4.0.0
