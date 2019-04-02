@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv bash
+
+exec \
+    /usr/sbin/crond -f -l 5 -c /etc/crontabs -L /var/log/cron/cron.log
