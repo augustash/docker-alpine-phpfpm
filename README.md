@@ -6,7 +6,8 @@
 
 ## Versions
 
-- `3.0.0`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-phpfpm/blob/3.0.0/Dockerfile)
+- `3.0.1`, `latest` [(Dockerfile)](https://github.com/augustash/docker-alpine-phpfpm/blob/3.0.1/Dockerfile)
+- `3.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-phpfpm/blob/3.0.0/Dockerfile)
 - `2.0.0` [(Dockerfile)](https://github.com/augustash/docker-alpine-phpfpm/blob/2.0.0/Dockerfile)
 - `1.0.2` [(Dockerfile)](https://github.com/augustash/docker-alpine-phpfpm/blob/1.0.2/Dockerfile)
 - `1.0.1` [(Dockerfile)](https://github.com/augustash/docker-alpine-phpfpm/blob/1.0.1/Dockerfile)
