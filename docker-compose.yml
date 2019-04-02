@@ -3,7 +3,7 @@ services:
   alpine-phpfpm:
     build:
       context: .
-    image: augustash/alpine-phpfpm:2.0.0
+    image: augustash/alpine-phpfpm:3.0.0
     labels:
       - "com.augustash.description=August Ash Alpine PHP-FPM Image"
       - "com.augustash.development-only"

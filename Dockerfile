@@ -1,8 +1,8 @@
-FROM augustash/alpine-base-s6:2.1.0
+FROM augustash/alpine-base-s6:3.0.0
 
 # environment
-ENV VERSION_ALPINE="3.7" \
-    VERSION_PHP="7.1" \
+ENV VERSION_ALPINE="3.8" \
+    VERSION_PHP="7.2" \
     COMPOSER_HOME="/.composer"
 
 # packages & configure
